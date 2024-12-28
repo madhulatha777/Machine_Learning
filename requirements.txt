@@ -1,3 +1,14 @@
 scikit-learn
 bs4
 requests
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+flask
+memory_profiler
+streamlit
+imblearn
+openpyxl
+statsmodels
