@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #f0f8ff, #add8e6);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 450px;
+        }
+        .form-container h1 {
+            text-align: center;
+            color: #333;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #444;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+        .form-group textarea {
+            resize: vertical;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .form-footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+        .form-footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="form-container">
+        <h1>Register</h1>
+        <form action="" method="get">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="form-footer">
+            Already have an account? <a href="/login">Login here</a>
+        </div>
+    </div> -->
+
+    <form action="{{url_for('predict_datapoint')}}" method="post">
+            <label for="temperature">Temperature</label>
+            <input type="text" id="temperature" name="Temperature" placeholder="Temperature" required="required" />
+
+            <label for="rh">RH</label>
+            <input type="text" id="rh" name="RH" placeholder="Relative Humidity" required="required" />
+
+            <label for="ws">Ws</label>
+            <input type="text" id="ws" name="Ws" placeholder="Wind Speed" required="required" />
+
+            <label for="rain">Rain</label>
+            <input type="text" id="rain" name="Rain" placeholder="Rainfall" required="required" />
+
+            <label for="ffmc">FFMC</label>
+            <input type="text" id="ffmc" name="FFMC" placeholder="FFMC" required="required" />
+
+            <label for="dmc">DMC</label>
+            <input type="text" id="dmc" name="DMC" placeholder="DMC" required="required" />
+
+            <label for="isi">ISI</label>
+            <input type="text" id="isi" name="ISI" placeholder="ISI" required="required" />
+
+            <label for="classes">Classes</label>
+            <input type="text" id="classes" name="Classes" placeholder="Fire Classes" required="required" />
+
+            <label for="region">Region</label>
+            <input type="text" id="region" name="Region" placeholder="Region" required="required" />
+            <button type="submit" class="bt btn-primary btn-block btn-large">Submit</button>
+            </form>
+</div>
+<h2>THE FWI prediction is {{results}}</h2>
+    
+</body>
+</html>
