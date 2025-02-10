@@ -1,0 +1,57 @@
+### Entropy in Decision Trees
+
+In decision trees, **entropy** is a measure of uncertainty or impurity in the data. It is used to evaluate how well a dataset can be split based on a specific attribute. The lower the entropy, the purer the dataset, meaning it contains data points predominantly belonging to one class.
+
+#### Formula for Entropy
+For a dataset with \( n \) classes, entropy is calculated as:
+
+\[
+H(S) = - \sum_{i=1}^n p_i \cdot \log_2(p_i)
+\]
+
+Where:
+- \( H(S) \): Entropy of the dataset \( S \)
+- \( p_i \): Proportion of instances belonging to class \( i \) (calculated as \( \frac{\text{count of instances in class } i}{\text{total instances}} \))
+- \( n \): Total number of classes
+
+#### Intuition
+- **Low entropy (close to 0):** The dataset is pure (mostly contains instances of one class).
+- **High entropy (closer to 1 or above):** The dataset is impure (instances are evenly distributed across different classes).
+
+##### Example:
+If a dataset has:
+- 90% of instances labeled as Class A (\( p_A = 0.9 \))
+- 10% of instances labeled as Class B (\( p_B = 0.1 \)),
+
+the entropy is:
+
+\[
+H(S) = - (0.9 \cdot \log_2(0.9) + 0.1 \cdot \log_2(0.1))
+     \approx 0.47
+\]
+
+In contrast, if 50% of the instances belong to Class A and 50% to Class B (\( p_A = p_B = 0.5 \)):
+
+\[
+H(S) = - (0.5 \cdot \log_2(0.5) + 0.5 \cdot \log_2(0.5))
+     = 1
+\]
+
+This indicates maximum uncertainty.
+
+#### Role in Decision Trees
+In decision trees:
+1. Entropy helps decide which attribute to split on.
+2. The goal is to minimize the entropy after a split to make the dataset purer.
+
+**Information Gain** is used to measure the reduction in entropy after splitting:
+
+\[
+\text{Information Gain} = H(S) - \sum \left( \frac{\text{size of subset}}{\text{size of total dataset}} \cdot H(\text{subset}) \right)
+\]
+
+The attribute with the highest information gain is chosen for the split.
+
+
+
+
