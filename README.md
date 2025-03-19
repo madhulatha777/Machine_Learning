@@ -11,11 +11,13 @@ Flask & Streamlit (Web Applications)
 Logging in Python
 Memory Management
 Multi-threading & Multi-processing
+
 2️⃣ SQL and SQLite
 Fundamental SQL concepts for data retrieval, manipulation, and management:
 
 Hands-on SQL queries
 SQLite database operations
+
 3️⃣ Data
 A collection of datasets used for Exploratory Data Analysis (EDA) and Machine Learning projects.
 
@@ -25,6 +27,7 @@ Covers three core mathematical concepts essential for ML:
 **Linear Algebra**: Vectors, Matrices, Eigenvalues, etc.
 Calculus: Derivatives, Gradients, Optimization techniques
 Probability & Statistics: Distributions, Bayes' Theorem, Hypothesis Testing
+
 5️⃣ EDA (Exploratory Data Analysis)
 EDA Part 1: Theory
 Covers key data preprocessing techniques:
@@ -35,6 +38,7 @@ Feature Encoding
 Outlier Treatment
 EDA Part 2: Practical Implementation
 Hands-on dataset exploration and visualization.
+
 6️⃣ Feature Engineering
 Techniques to improve model performance by transforming raw data into informative features.
 
@@ -44,12 +48,14 @@ Covers key machine learning algorithms:
 **Regression**: Linear Regression, Logistic Regression, KNN Regressor, SVM Regressor, Decision Tree Regressor, Naive Bayes Regressor
 **Classification**: Naïve Bayes, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Trees
 Ensemble Methods: Random Forest, AdaBoost, XGBoost, Gradient Boosting
+
 8️⃣ Unsupervised Learning
 Covers dimensionality reduction & clustering techniques:
 
 PCA (Principal Component Analysis)
 Clustering Algorithms: K-Means, DBScan, Hierarchical Clustering
 Anomaly Detection
+
 9️⃣ Docker Basics
 Covers fundamental Docker concepts for ML model deployment.
 
@@ -63,4 +69,5 @@ Clone the repository and start exploring the content:
 Contributions are welcome! Feel free to submit issues, suggestions, or pull requests to enhance this repository.
 
 🛠 Maintained by: Madhulatha Seerapu
+
 📩 Contact: GitHub Profile
