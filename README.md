@@ -1,73 +1,74 @@
 # Machine Learning Repository
+
 Welcome to the Machine Learning Repository — a well-structured collection of resources that covers essential topics in Machine Learning, Data Science, and related foundational concepts. This repository is designed to help learners and practitioners build a strong understanding of machine learning from the ground up.
 
-📁 Repository Structure
+## 📁 Repository Structure
+
 This repository is organized into the following folders:
 
-1️⃣ Python Basics
-Covers intermediate Python concepts essential for ML development:
+1️⃣ **Python Basics**  
+   Covers intermediate Python concepts essential for ML development:  
+   - Flask & Streamlit (Web Applications)  
+   - Logging in Python  
+   - Memory Management  
+   - Multi-threading & Multi-processing  
 
-Flask & Streamlit (Web Applications)
-Logging in Python
-Memory Management
-Multi-threading & Multi-processing
+2️⃣ **SQL and SQLite**  
+   Fundamental SQL concepts for data retrieval, manipulation, and management:  
+   - Hands-on SQL queries  
+   - SQLite database operations  
 
-2️⃣ SQL and SQLite
-Fundamental SQL concepts for data retrieval, manipulation, and management:
+3️⃣ **Data**  
+   A collection of datasets used for Exploratory Data Analysis (EDA) and Machine Learning projects.
 
-Hands-on SQL queries
-SQLite database operations
+4️⃣ **Maths for Machine Learning**  
+   Covers three core mathematical concepts essential for ML:  
+   - **Linear Algebra**: Vectors, Matrices, Eigenvalues, etc.  
+   - **Calculus**: Derivatives, Gradients, Optimization techniques  
+   - **Probability & Statistics**: Distributions, Bayes' Theorem, Hypothesis Testing  
 
-3️⃣ Data
-A collection of datasets used for Exploratory Data Analysis (EDA) and Machine Learning projects.
+5️⃣ **EDA (Exploratory Data Analysis)**  
+   **EDA Part 1: Theory**  
+   Covers key data preprocessing techniques:  
+   - Handling Missing Values  
+   - Feature Scaling  
+   - Feature Binning  
+   - Feature Encoding  
+   - Outlier Treatment  
 
-4️⃣ Maths for Machine Learning
-Covers three core mathematical concepts essential for ML:
+   **EDA Part 2: Practical Implementation**  
+   Hands-on dataset exploration and visualization.
 
-**Linear Algebra**: Vectors, Matrices, Eigenvalues, etc.
-Calculus: Derivatives, Gradients, Optimization techniques
-Probability & Statistics: Distributions, Bayes' Theorem, Hypothesis Testing
+6️⃣ **Feature Engineering**  
+   Techniques to improve model performance by transforming raw data into informative features.
 
-5️⃣ EDA (Exploratory Data Analysis)
-EDA Part 1: Theory
-Covers key data preprocessing techniques:
-Handling Missing Values
-Feature Scaling
-Feature Binning
-Feature Encoding
-Outlier Treatment
-EDA Part 2: Practical Implementation
-Hands-on dataset exploration and visualization.
+7️⃣ **Supervised Learning**  
+   Covers key machine learning algorithms:  
+   - **Regression**: Linear Regression, Logistic Regression, KNN Regressor, SVM Regressor, Decision Tree Regressor, Naive Bayes Regressor  
+   - **Classification**: Naïve Bayes, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Trees  
+   - **Ensemble Methods**: Random Forest, AdaBoost, XGBoost, Gradient Boosting  
 
-6️⃣ Feature Engineering
-Techniques to improve model performance by transforming raw data into informative features.
+8️⃣ **Unsupervised Learning**  
+   Covers dimensionality reduction & clustering techniques:  
+   - PCA (Principal Component Analysis)  
+   - Clustering Algorithms: K-Means, DBScan, Hierarchical Clustering  
+   - Anomaly Detection  
 
-7️⃣ Supervised Learning
-Covers key machine learning algorithms:
+9️⃣ **Docker Basics**  
+   Covers fundamental Docker concepts for ML model deployment.
 
-**Regression**: Linear Regression, Logistic Regression, KNN Regressor, SVM Regressor, Decision Tree Regressor, Naive Bayes Regressor
-**Classification**: Naïve Bayes, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Trees
-Ensemble Methods: Random Forest, AdaBoost, XGBoost, Gradient Boosting
+## 📌 Next Steps: Project Implementations
 
-8️⃣ Unsupervised Learning
-Covers dimensionality reduction & clustering techniques:
+For well-structured project implementations, visit:  
+👉 [Machine Learning Projects Repository](https://github.com/madhulatha777/Machine-Learning-Projects)
 
-PCA (Principal Component Analysis)
-Clustering Algorithms: K-Means, DBScan, Hierarchical Clustering
-Anomaly Detection
+## 🚀 Get Started
 
-9️⃣ Docker Basics
-Covers fundamental Docker concepts for ML model deployment.
 
-📌 Next Steps: Project Implementations
-For well-structured project implementations, visit: 👉 Machine Learning Projects Repository
+## 🤝 Contributions
 
-🚀 Get Started
-Clone the repository and start exploring the content:
-
-🤝 Contributions
 Contributions are welcome! Feel free to submit issues, suggestions, or pull requests to enhance this repository.
 
-🛠 Maintained by: Madhulatha Seerapu
+## 🛠 Maintained by: Madhulatha Seerapu
 
-📩 Contact: GitHub Profile
+📩 **Contact**: [GitHub Profile](https://github.com/madhulatha777)
