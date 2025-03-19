@@ -63,6 +63,9 @@ For well-structured project implementations, visit:
 👉 [Machine Learning Projects Repository](https://github.com/madhulatha777/Machine-Learning-Projects)
 
 ## 🚀 Get Started
+```bash
+git clone https://github.com/madhulatha777/Machine-Learning.git
+cd Machine-Learning
 
 
 ## 🤝 Contributions
